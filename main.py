@@ -4,7 +4,7 @@ from markdown import markdown
 from jinja2 import Environment, FileSystemLoader
 
 CONTENT_DIR = 'Content'
-PUBLIC_DIR = 'Public'
+PUBLIC_DIR = 'docs'
 ASSETS_DIR = 'Assets'
 INDEX_TEMPLATE = 'index_template.html'
 PAGE_TEMPLATE = 'page_template.html'
