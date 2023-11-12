@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h1>Index</h1>
+<ul>
+{% for page in pages %}
+    <li><a href="{{ page }}">{{ page }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
