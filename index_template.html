@@ -8,7 +8,7 @@
 <h1>Index</h1>
 <ul>
 {% for page in pages %}
-    <li><a href="{{ page }}">{{ page }}</a></li>
+    <li><a href="{{ page }}">{{ page.rstrip('.html') }}</a></li>
 {% endfor %}
 </ul>
 </body>

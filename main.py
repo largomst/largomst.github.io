@@ -34,3 +34,5 @@ for md_file in markdown_files:
 index_template = env.get_template(INDEX_TEMPLATE)
 with open(os.path.join(PUBLIC_DIR, 'index.html'), 'w', encoding='utf-8') as file:
     file.write(index_template.render(pages=html_files))
+
+shutil.copy('CNAME', 'docs')
